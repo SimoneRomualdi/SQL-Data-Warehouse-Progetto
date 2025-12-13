@@ -1,48 +1,117 @@
 # SQL-Data-Warehouse-Progetto
 Creazione di un Data Warehouse moderno con Postgre SQL. Sono inclusi Processi di ETL, Data Modeling e Analisi. 
 
-Questo Progetto si dividerà in *Due Step*:
-- Costruzione di un Data Warehouse (Data Engineering)
-- BI: Analytics & Reporting (Data Analysis)
+# Sales Data Warehouse & Analytics
 
-DATA ENGINEERING Obiettivo 
+## Overview
 
-Realizzare un data warehouse moderno basato su PostgreSQL per centralizzare i dati di vendita provenienti da diverse fonti, così da supportare analisi avanzate e processi decisionali più consapevoli.
+Progetto completo di Data Engineering e Data Analysis per la creazione di un data warehouse moderno e lo sviluppo di analytics avanzate sui dati di vendita.
 
-Specifiche del Progetto
-• Sorgenti Dati: Caricamento dei dati da due sistemi (ERP e CRM), forniti in formato CSV.
-• Data Quality: Attività di pulizia e normalizzazione dei dati per eliminare incoerenze, duplicati e valori anomali prima della fase analitica.
-• Integrazione: Unificazione delle due sorgenti in un unico modello dati chiaro e facilmente interrogabile, pensato per analisi e reporting.
-• Ambito: Il progetto si concentra sui dati più recenti; non è prevista la storicizzazione delle informazioni.
-• Documentazione: Produzione di una documentazione completa del modello dati, utile sia per i team di business sia per chi si occupa di analytics.
+## 🎯 Obiettivi del Progetto
 
-DATA ANALYST Obiettivo
+Il progetto si articola in due fasi principali:
 
-Sviluppare analisi basate su SQL per ottenere insight approfonditi su diversi aspetti del business, così da supportare processi decisionali strategici.
-Focus dell’Analisi
-• Comportamento dei Clienti: Identificazione di pattern, segmenti e dinamiche di acquisto.
-• Performance dei Prodotti: Valutazione dei prodotti più performanti e analisi dei driver di vendita.
-• Trend di Vendita: Individuazione di andamenti temporali e variazioni stagionali nelle vendite.
-Le analisi prodotte forniscono metriche chiave ai principali stakeholder, facilitando decisioni data-driven e una pianificazione più efficaceDue Step:
-- Costruzione di un Data Warehouse (Data Engineering)
-- BI: Analytics & Reporting (Data Analysis)
+1. **Data Engineering**: Costruzione di un data warehouse centralizzato
+2. **Data Analysis**: Analytics & Reporting per supportare decisioni data-driven
 
-DATA ENGINEERING Obiettivo 
+---
 
-Realizzare un data warehouse moderno basato su PostgreSQL per centralizzare i dati di vendita provenienti da diverse fonti, così da supportare analisi avanzate e processi decisionali più consapevoli.
+## 📊 Data Engineering
 
-Specifiche del Progetto
-• Sorgenti Dati: Caricamento dei dati da due sistemi (ERP e CRM), forniti in formato CSV.
-• Data Quality: Attività di pulizia e normalizzazione dei dati per eliminare incoerenze, duplicati e valori anomali prima della fase analitica.
-• Integrazione: Unificazione delle due sorgenti in un unico modello dati chiaro e facilmente interrogabile, pensato per analisi e reporting.
-• Ambito: Il progetto si concentra sui dati più recenti; non è prevista la storicizzazione delle informazioni.
-• Documentazione: Produzione di una documentazione completa del modello dati, utile sia per i team di business sia per chi si occupa di analytics.
+### Obiettivo
 
-DATA ANALYST Obiettivo
+Realizzare un data warehouse moderno basato su **PostgreSQL** per centralizzare i dati di vendita provenienti da diverse fonti, supportando analisi avanzate e processi decisionali consapevoli.
 
-Sviluppare analisi basate su SQL per ottenere insight approfonditi su diversi aspetti del business, così da supportare processi decisionali strategici.
-Focus dell’Analisi
-• Comportamento dei Clienti: Identificazione di pattern, segmenti e dinamiche di acquisto.
-• Performance dei Prodotti: Valutazione dei prodotti più performanti e analisi dei driver di vendita.
-• Trend di Vendita: Individuazione di andamenti temporali e variazioni stagionali nelle vendite.
-Le analisi prodotte forniscono metriche chiave ai principali stakeholder, facilitando decisioni data-driven e una pianificazione più efficace.
+### Caratteristiche Principali
+
+**Sorgenti Dati**
+- Integrazione di dati provenienti da due sistemi (ERP e CRM)
+- Formato di input: CSV
+
+**Data Quality**
+- Pulizia e normalizzazione dei dati
+- Eliminazione di incoerenze, duplicati e valori anomali
+- Validazione pre-analitica
+
+**Integrazione**
+- Unificazione delle sorgenti in un modello dati unificato
+- Struttura ottimizzata per query e reporting
+- Design orientato all'usabilità per team analytics e business
+
+**Ambito**
+- Focus sui dati più recenti
+- Non include storicizzazione delle informazioni
+
+**Documentazione**
+- Documentazione completa del modello dati
+- Guide per team business e analytics
+- Dizionario dati e schemi relazionali
+
+---
+
+## 📈 Data Analysis
+
+### Obiettivo
+
+Sviluppare analisi basate su **SQL** per estrarre insight approfonditi e supportare decisioni strategiche di business.
+
+### Aree di Analisi
+
+**Comportamento dei Clienti**
+- Identificazione di pattern e dinamiche di acquisto
+- Segmentazione della customer base
+- Analisi del customer journey
+
+**Performance dei Prodotti**
+- Valutazione dei prodotti top-performing
+- Analisi dei driver di vendita
+- Identificazione di opportunità di crescita
+
+**Trend di Vendita**
+- Individuazione di andamenti temporali
+- Analisi di variazioni stagionali
+- Previsioni e forecasting
+
+### Output
+
+Le analisi producono **metriche chiave** per i principali stakeholder, facilitando:
+- Decisioni data-driven
+- Pianificazione strategica efficace
+- Ottimizzazione delle performance di vendita
+
+---
+
+## 🛠️ Stack Tecnologico
+
+- **Database**: PostgreSQL
+- **Query Language**: SQL
+- **Data Format**: CSV
+
+---
+
+## 📁 Struttura del Repository
+
+```
+├── data/                  # Dataset sorgente (ERP, CRM)
+├── sql/                   # Script SQL per ETL e analisi
+├── docs/                  # Documentazione del modello dati
+└── README.md             # Questo file
+```
+
+---
+
+## 🚀 Getting Started
+
+[Aggiungi qui le istruzioni per l'installazione e l'utilizzo]
+
+---
+
+## 📝 License
+
+[Aggiungi informazioni sulla licenza]
+
+---
+
+## 👥 Contributors
+
+[Aggiungi informazioni sui contributori]
