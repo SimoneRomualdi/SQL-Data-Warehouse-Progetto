@@ -92,26 +92,8 @@ Le analisi producono **metriche chiave** per i principali stakeholder, facilitan
 ## 📁 Struttura del Repository
 
 ```
-├── data/                  # Dataset sorgente (ERP, CRM)
-├── sql/                   # Script SQL per ETL e analisi
-├── docs/                  # Documentazione del modello dati
+├── datasets/             # Dataset sorgente (ERP, CRM)
+├── scripts/              # Script SQL per ETL e analisi
+├── documentazione/       # Documentazione del modello dati
 └── README.md             # Questo file
 ```
-
----
-
-## 🚀 Getting Started
-
-[Aggiungi qui le istruzioni per l'installazione e l'utilizzo]
-
----
-
-## 📝 License
-
-[Aggiungi informazioni sulla licenza]
-
----
-
-## 👥 Contributors
-
-[Aggiungi informazioni sui contributori]
