@@ -54,28 +54,21 @@ Le analisi prodotte forniscono metriche chiave ai principali stakeholder, facili
 
 ```
 SQL-Data-Warehouse-Progetto/
-├── datasets/                 # Dataset sorgente (ERP, CRM)
-│   ├── sorgente_crm/        # File CSV dal sistema CRM
-│   └── sorgente_erp/        # File CSV dal sistema ERP
-├── scripts/                  # Script SQL per ETL e analisi
-│   ├── bronze/              # Layer Bronze
-│   │   ├── ddl_bronze_tabelle.sql
-│   │   └── proc_caricamento_bronze.sql
-│   ├── silver/              # Layer Silver
-│   │   ├── ddl_tabelle_silver.sql
-│   │   └── proc_caricamento_silver.sql
-│   └── gold/                # Layer Gold
-│       └── ddl_layer_gold.sql
-├── tests/                    # Script controllo qualità
-│   ├── controllo_qualità_silver.sql
-│   └── controllo_qualità_oro.sql
-├── documentazione/           # Documentazione del modello dati
-│   ├── Architettura.drawio
-│   ├── Data Model.drawio
-│   ├── Flusso Dati.drawio
-│   ├── Modello di Integrazione.drawio
-│   └── data_catalog.md
-└── README.md                 # Questo file
+├── datasets/           # Dataset sorgente (ERP, CRM)
+│   ├── sorgente_crm/
+│   └── sorgente_erp/
+│
+├── scripts/            # Script SQL per ETL e analisi
+│   ├── bronze/         # Layer Bronze
+│   ├── silver/         # Layer Silver
+│   └── gold/           # Layer Gold
+│
+├── tests/              # Script controllo qualità
+│
+├── documentazione/     # Documentazione del modello dati
+│
+└── README.md           # Questo file
+
 ```
 
 ---
